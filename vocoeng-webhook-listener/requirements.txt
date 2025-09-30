@@ -1,0 +1,32 @@
+# Flask web framework for webhook handling
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Google Cloud dependencies
+google-cloud-pubsub==2.18.4
+google-cloud-secret-manager==2.16.4
+google-cloud-firestore==2.11.1
+
+# Production WSGI server
+gunicorn==21.2.0
+
+# HTTP client for external API calls
+requests==2.31.0
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Type hints and validation
+pydantic==2.4.2
+
+# Logging and monitoring
+structlog==23.1.0
+
+# Security
+cryptography==41.0.4
+
+# Utilities
+click==8.1.7
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.3
